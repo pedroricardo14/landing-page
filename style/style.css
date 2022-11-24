@@ -99,14 +99,4 @@ input{
     flex-direction: column;
     margin-top: 50px;
 }
-@media (max-width: 999) {
-    .nav-list{
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 50vw;
-        height: 92vh;
-        background: #23232e;
-        
-    }
 }
