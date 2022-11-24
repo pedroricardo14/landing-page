@@ -1,1 +1,112 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: arial;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobilemenu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+.mobilemenu{
+    cursor: pointer;
+    display: none;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+#inscreva-se{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+#inscreva-se:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+h1{
 
+    font-weight: 200;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: arial;
+}
+span{
+    color: violet;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: arial;
+}
+img{
+    width: 450px;
+    height: 450;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+@media (max-width: 999) {
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        
+    }
+}
