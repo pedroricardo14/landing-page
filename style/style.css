@@ -5,21 +5,6 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
-    display: flex;
-    flex-direction: column;
-}
-#menu{
-    display: flex;
-    list-style: none;
-    gap: .5rem;
-}
-#menu a{
-    display: block;
-    padding: .5rem;
-    text-decoration: none;
-}
-#btn-mobile{
-    display: none;
 }
 header{
     display: flex;
@@ -27,7 +12,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
+.mobilemenu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+.mobilemenu{
+    cursor: pointer;
+    display: none;
+}
 #title{
     flex-direction: column;
     line-height: 10px;
@@ -76,8 +70,7 @@ p{
 }
 img{
     width: 450px;
-    height: 450px;
-    margin-left: 250px;
+    height: 450;
 }
 form{
     display: flex;
@@ -106,4 +99,14 @@ input{
     flex-direction: column;
     margin-top: 50px;
 }
+@media (max-width: 999) {
+    .nav-list{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #23232e;
+        
+    }
 }
