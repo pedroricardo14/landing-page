@@ -6,22 +6,25 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
+#menu{
+    display: flex;
+    list-style: none;
+    gap: .5rem;
+}
+#menu a{
+    display: block;
+    padding: .5rem;
+}
+#btn-mobile{
+    display: none;
+}
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-.mobilemenu div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-}
-.mobilemenu{
-    cursor: pointer;
-    display: none;
-}
+
 #title{
     flex-direction: column;
     line-height: 10px;
