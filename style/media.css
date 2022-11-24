@@ -25,10 +25,7 @@
         align-self: center;
     }
     img{
-        margin-top: 60px;
-        width: 250px;
-        display: flex;
-        align-self: center;
+        display: none;
     }
     ul{
         text-align: center;
