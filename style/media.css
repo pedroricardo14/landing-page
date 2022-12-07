@@ -20,13 +20,14 @@
     h2{
         font-size: 30px;
     }
-    form{
+   form{
         margin: 0 auto;
         width: 100%;
         
     }
-    input{
-        align-self: center;
+    form input{
+        width: 80%;
+
     }
     article{
         margin: 10px 0;
