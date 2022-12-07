@@ -99,4 +99,7 @@ input{
     flex-direction: column;
     margin-top: 50px;
 }
+article{
+    margin: 0 0 0 25vh;
+}
 }
