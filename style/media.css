@@ -10,6 +10,10 @@
         flex-direction: column;
         margin-left: 20px;
     }
+    aside{
+        display: flex;
+        flex-direction: column;
+    }
     h1{
         font-size: 38px;
     }
