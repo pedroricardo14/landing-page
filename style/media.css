@@ -28,6 +28,9 @@
     input{
         align-self: center;
     }
+    article{
+        margin: 10px 0;
+    }
      img{
         display: flex;
         width: 300px;
