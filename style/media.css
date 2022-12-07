@@ -24,8 +24,10 @@
     input{
         align-self: center;
     }
-    img{
-        display: none;
+     img{
+        display: flex;
+        width: 300px;
+        height: 300px;
     }
     ul{
         text-align: center;
